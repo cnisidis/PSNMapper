@@ -266,7 +266,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
             </p:NodeReference>
-            <Pin Id="CyfoSKpGNSVNRevwCQ7Is0" Name="Period" Kind="InputPin" DefaultValue="0.3" />
+            <Pin Id="CyfoSKpGNSVNRevwCQ7Is0" Name="Period" Kind="InputPin" DefaultValue="0.16" />
             <Pin Id="UsnLX5DAFozMcAcrLh2kKA" Name="Pause" Kind="InputPin" />
             <Pin Id="LB6UhiIbfI7L2a7pdX9rsu" Name="Reset" Kind="ApplyPin" />
             <Pin Id="SQ4R4U4RMt2LhcMZSkYV2u" Name="Phase" Kind="OutputPin" />
