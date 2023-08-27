@@ -48,12 +48,12 @@
             </p:TypeAnnotation>
           </Pad>
           <Pad Id="Dqgh1BC4X1ZOnkpB0MvbYI" Comment="Is Open" Bounds="605,429,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="NLyq8GSTNRoPlZePLjrH87" Comment="Data Preview" Bounds="686,469,198,38" ShowValueBox="true" isIOBox="true">
+          <Pad Id="NLyq8GSTNRoPlZePLjrH87" Comment="Data Preview" Bounds="686,469,335,103" ShowValueBox="true" isIOBox="true">
             <p:Value>
               <Item />
             </p:Value>
           </Pad>
-          <Pad Id="LmEe17gWHEDLfuKt488YcH" Comment="" Bounds="506,527,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+          <Pad Id="LmEe17gWHEDLfuKt488YcH" Comment="" Bounds="506,527,136,21" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Float32" />
               <CategoryReference Kind="Category" Name="Primitive" />
@@ -76,11 +76,6 @@
         </Canvas>
         <Patch Id="A5Lcr3TbF1kPlUnjhwKclB" Name="Create" />
         <Patch Id="NzQGsvffBEsM1kq3JmTTEH" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="Q5Vmhi262gkNvnDTp6guDb">
           <Fragment Id="KFl4nS24oCOMVSoWVC1qPX" Patch="A5Lcr3TbF1kPlUnjhwKclB" Enabled="true" />
           <Fragment Id="TUvJNM5U6ExM2hzoVuTwwn" Patch="NzQGsvffBEsM1kq3JmTTEH" Enabled="true" />
