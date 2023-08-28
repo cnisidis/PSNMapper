@@ -1493,7 +1493,7 @@
     ************************ Recorder ************************
 
 -->
-      <Node Name="Recorder" Bounds="348,173" Id="IYrH3h2pbbhOpHWjFDKX5V">
+      <Node Name="Recorder" Bounds="349,146" Id="IYrH3h2pbbhOpHWjFDKX5V">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -1794,7 +1794,7 @@
               <Pin Id="CQ5Ce5UuIQQPKoS78RsgRH" Name="Input" Kind="StateInputPin" />
               <Pin Id="KD2FIBhJ7VXPqZ9Kq13Nio" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="LNN0gdtSR7ZNLq2ImHad94" SlotId="Klh6h3XQOTsLe9YkaFu3eh" Bounds="2581,702" />
+            <Pad Id="LNN0gdtSR7ZNLq2ImHad94" SlotId="Klh6h3XQOTsLe9YkaFu3eh" Bounds="2578,626" />
             <Node Bounds="2641,838,25,19" Id="O59DrW6IT2EOBipvYRSVyV">
               <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
