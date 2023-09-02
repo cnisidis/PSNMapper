@@ -42,7 +42,7 @@
             <Pin Id="L8fNWPhbF5IMsY6ksZVv0g" Name="Is Learning" Kind="OutputPin" />
             <Pin Id="NSVJGYkhZbgPwnsUjnrKvI" Name="On Data" Kind="OutputPin" />
           </Node>
-          <Pad Id="UlCBgnl98R0Mg7wWzNMnbm" Comment="Address" Bounds="538,311,168,15" ShowValueBox="true" isIOBox="true" Value="vvvv/0/POSITION/0">
+          <Pad Id="UlCBgnl98R0Mg7wWzNMnbm" Comment="Address" Bounds="538,311,168,15" ShowValueBox="true" isIOBox="true" Value="vvvv/0/position/0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -73,6 +73,11 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="I95o6AeyixSLUlBSMOkE5v" Comment="Port" Bounds="531,200,35,15" ShowValueBox="true" isIOBox="true" Value="4444">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="A5Lcr3TbF1kPlUnjhwKclB" Name="Create" />
         <Patch Id="NzQGsvffBEsM1kq3JmTTEH" Name="Update" />
@@ -87,6 +92,7 @@
         <Link Id="PzJYX208u6dNcfpg7YkGIg" Ids="UrGJFfBAsr3LhHXIiv3dRw,LmEe17gWHEDLfuKt488YcH" />
         <Link Id="I6HT7ZhKUx5MaRSNoupowc" Ids="UKEBxKdhTDBPyyGxaEO3Rv,HFIbLVFi4bBP1Ui66a7O0U" />
         <Link Id="V7RsUGngPeQMQkrLAnwglS" Ids="KJbeYd18JeUO2JcGhKDxGD,V1dwTgy8e0yP8TpIERlr5r" />
+        <Link Id="PI7dGXnqY0JP3YI3CDuXtu" Ids="I95o6AeyixSLUlBSMOkE5v,KjRnOB7rkOiMvQtf0BrvDu" />
       </Patch>
     </Node>
   </Patch>
