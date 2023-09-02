@@ -42,7 +42,7 @@
             <Pin Id="L8fNWPhbF5IMsY6ksZVv0g" Name="Is Learning" Kind="OutputPin" />
             <Pin Id="NSVJGYkhZbgPwnsUjnrKvI" Name="On Data" Kind="OutputPin" />
           </Node>
-          <Pad Id="UlCBgnl98R0Mg7wWzNMnbm" Comment="Address" Bounds="538,311,168,15" ShowValueBox="true" isIOBox="true" Value="vvvv/0/position/0">
+          <Pad Id="UlCBgnl98R0Mg7wWzNMnbm" Comment="Address" Bounds="538,311,168,15" ShowValueBox="true" isIOBox="true" Value="/POSITION/0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
