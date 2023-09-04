@@ -6923,7 +6923,7 @@
               <Choice Kind="ProcessAppFlag" Name="RenderWindow" />
             </p:NodeReference>
             <Pin Id="DmO8VGg3s49QQerxqnUG9q" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="ORwjD4b7wm8QVRylfMEDAg" Name="Bounds" Kind="InputPin" DefaultValue="0, 0, 1536, 864" />
+            <Pin Id="ORwjD4b7wm8QVRylfMEDAg" Name="Bounds" Kind="InputPin" DefaultValue="0.8, 30.4, 1521.6, 832.8" />
             <Pin Id="BpkTnxdyJ81LNE02khAEKj" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="BcsYXyrgHYuMwJ855lUFSd" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="Bndj8Of2aYMQS4i2eiLcQa" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -7011,7 +7011,7 @@
                 </p:NodeReference>
                 <Pin Id="QXoCuYkq81PP4gcvo8bgAm" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="VJTVOCgSszQPwMIrlQJtiS" Name="Engine" Kind="InputPin" />
-                <Pin Id="Ut0wcVbxeucObTAfmatFVP" Name="Visible" Kind="InputPin" />
+                <Pin Id="Ut0wcVbxeucObTAfmatFVP" Name="Visible" Kind="InputPin" DefaultValue="False" />
                 <Pin Id="S4N4WutsTX6OuaZzhU892i" Name="Style" Kind="InputPin" />
               </Node>
               <Node Bounds="485,11,82,80" Id="VvTxMfqTxgjMAyLKqVW2YP">
@@ -7052,7 +7052,7 @@
                 <Pin Id="JdkXNhNkwh7QYGz9GdLngI" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="UKeVKSwdrXvMDzxjkEWzT3" Name="Context" Kind="InputPin" />
                 <Pin Id="GFmbi3NHYyRNdxQ82ImZoV" Name="Engine" Kind="InputPin" />
-                <Pin Id="NRWtXp93P48N3PJBqdLrk0" Name="Visible" Kind="InputPin" />
+                <Pin Id="NRWtXp93P48N3PJBqdLrk0" Name="Visible" Kind="InputPin" DefaultValue="False" />
                 <Pin Id="Dh7cDLtRvDuQa94h0ooxDF" Name="Style" Kind="InputPin" />
                 <Pin Id="E6q1wmETx6XOsbzPZqGCOs" Name="Context" Kind="OutputPin" />
                 <Pin Id="In0N7NvZzfzOtysREbuZ0M" Name="REC" Kind="OutputPin" />
