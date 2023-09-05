@@ -1019,7 +1019,7 @@
     ************************ PSNRecorder ************************
 
 -->
-            <Node Name="PSNRecorder" Bounds="1226,-15" Id="GibxqACw8HCLCWb6QfMQFr">
+            <Node Name="PSNRecorder" Bounds="1386,-113" Id="GibxqACw8HCLCWb6QfMQFr">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="ClassDefinition" Name="Class" />
               </p:NodeReference>
@@ -1368,7 +1368,7 @@
     ************************ sACNSettings ************************
 
 -->
-            <Node Name="sACNSettings" Bounds="1234,52" Id="F3I8T0i29v9PtntNRhey2s">
+            <Node Name="sACNSettings" Bounds="1223,-21" Id="F3I8T0i29v9PtntNRhey2s">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="ClassDefinition" Name="Class" />
               </p:NodeReference>
@@ -1924,6 +1924,25 @@
               <Pin Id="FkoNumkDZnCNd0DTIuLHza" Name="Messages" Kind="InputPin" />
               <Pin Id="QVeHkiPFccENqsBUhQgcZx" Name="Result" Kind="OutputPin" />
             </Node>
+            <!--
+
+    ************************ ISettings ************************
+
+-->
+            <Node Name="ISettings" Bounds="1178,-127" Id="ApyreTaeh3kMATKigE5VIr">
+              <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+                <Choice Kind="InterfaceDefinition" Name="Interface" />
+              </p:NodeReference>
+              <Patch Id="E8PCAs55x2kQJogP9T195n">
+                <Canvas Id="QKZzhiWnQOBNN5S4zLazYV" BordersChecked="false" CanvasType="Group" />
+                <!--
+
+    ************************  ************************
+
+-->
+                <ProcessDefinition Id="PlyheQPwSW9NCfwH4lS5r0" IsHidden="true" />
+              </Patch>
+            </Node>
           </Canvas>
           <ProcessDefinition Id="A7AfjnVopl2P7xuIJ28IX6" HasStateOut="true">
             <Fragment Id="I85GNm04QAOMauNksbLXva" Patch="OnPBVidguFQPLix7oQpgSo" Enabled="true" />
@@ -2332,7 +2351,7 @@
     ************************ PSN2OSCControl ************************
 
 -->
-      <Node Name="PSN2OSCControl" Bounds="205,375" Id="U0WtQi3lEHEPwaw4o9TEzK">
+      <Node Name="PSN2OSCControl" Bounds="207,361" Id="U0WtQi3lEHEPwaw4o9TEzK">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -5974,7 +5993,7 @@
                   </Node>
                 </Patch>
               </Node>
-              <ControlPoint Id="Um7FOn1C85vPufaGONWr5C" Bounds="659,140" />
+              <ControlPoint Id="Um7FOn1C85vPufaGONWr5C" Bounds="600,71" />
               <ControlPoint Id="G9LyoMzGw12MBciGeyq2HT" Bounds="629,1306" />
               <Node Bounds="1002,385,61,19" Id="Ul7sDe76gceMUxBfnfqSnx">
                 <p:NodeReference LastCategoryFullName="2D.Rectangle" LastDependency="VL.CoreLib.vl">
@@ -6001,7 +6020,7 @@
                 </p:Value>
               </Pad>
               <ControlPoint Id="BFjeNN6OnT7LAPZwQStDRc" Bounds="1237,276" />
-              <ControlPoint Id="LmjDOJW4PfEPly9pqOTZM6" Bounds="516,160" />
+              <ControlPoint Id="LmjDOJW4PfEPly9pqOTZM6" Bounds="339,58" />
               <Pad Id="VJOdGYpZw9AMwM4lG6LxUn" Comment="Size" Bounds="1030,221,35,28" ShowValueBox="true" isIOBox="true" Value="4.08, 2.31">
                 <p:TypeAnnotation LastCategoryFullName="2D" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="Vector2" />
@@ -6012,7 +6031,7 @@
                   <Choice Kind="TypeFlag" Name="Vector2" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="515,327,93,26" Id="MCL45oSIJQdLJu3sW3xCYv">
+              <Node Bounds="338,225,93,26" Id="MCL45oSIJQdLJu3sW3xCYv">
                 <p:NodeReference LastCategoryFullName="PSNMapper.PSNMapperEngine" LastDependency="PSNMApperApp.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetsACNSettings" />
@@ -6959,16 +6978,28 @@
       </Canvas>
       <!--
 
-    ************************ IMapSource ************************
+    ************************ IControlSource ************************
 
 -->
-      <Node Name="IMapSource" Bounds="145,257" Id="CQdsXGB4p7KNS7uRXHwitx">
+      <Node Name="IControlSource" Bounds="145,257" Id="CQdsXGB4p7KNS7uRXHwitx">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="InterfaceDefinition" Name="Interface" />
         </p:NodeReference>
         <Patch Id="VmkJBvFgDAILT9owo28KYq">
-          <Canvas Id="AZdf3mRPYgLN9H7zpKcQl9" BordersChecked="false" CanvasType="Group" />
-          <ProcessDefinition Id="Rq6vGytyTxhMmBJMe78TTr" IsHidden="true" />
+          <Canvas Id="AZdf3mRPYgLN9H7zpKcQl9" CanvasType="Group">
+            <ControlPoint Id="KvlDQAbMPRlQDkCblJ21st" Bounds="361,328" />
+          </Canvas>
+          <ProcessDefinition Id="Rq6vGytyTxhMmBJMe78TTr" IsHidden="true">
+            <Fragment Id="PTX0dEGAPYZLSS2f9rRtsA" Patch="OsYut533PE9NyaXvuGinxQ" />
+          </ProcessDefinition>
+          <Link Id="DaCsojKTNrGQSadnQAwBqB" Ids="HylfZskwYcgPNt6zcZkrFN,KvlDQAbMPRlQDkCblJ21st" IsHidden="true" />
+          <Patch Id="OsYut533PE9NyaXvuGinxQ" Name="GetInfoWidget">
+            <Pin Id="HylfZskwYcgPNt6zcZkrFN" MergeId="4483" Name="Context" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="ImGui" LastDependency="VL.ImGui.vl">
+                <Choice Kind="TypeFlag" Name="Context" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Patch>
         </Patch>
       </Node>
       <!--
@@ -6976,7 +7007,7 @@
     ************************ sACN2OSCControl ************************
 
 -->
-      <Node Name="sACN2OSCControl" Bounds="210,418" Id="BADXhvpzP2mLpJCAFNDof6">
+      <Node Name="sACN2OSCControl" Bounds="209,410" Id="BADXhvpzP2mLpJCAFNDof6">
         <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
           <Choice Kind="ClassDefinition" Name="Class" />
         </p:NodeReference>
@@ -7255,11 +7286,6 @@
             <Pad Id="DYCwvZBnJXhOgCW0TidiNA" SlotId="O1yj7ZUiDYbOq5NtdiBCmF" Bounds="1425,948" />
             <Pad Id="QlNRtUQKvXFLqDrREBn3J6" SlotId="TuXbT2IFvwPQHLk4Eruoz4" Bounds="1491,948" />
           </Canvas>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="ERRoh0Syu6tNbjbbcaU2I5" IsHidden="true">
             <Fragment Id="UxEl2beRKdmNacRrj1p4tX" Patch="BNZDDD3sEJYNYq1cDW2tc2" Enabled="true" />
             <Fragment Id="VAayNJYPIpRN3faLoB6CKL" Patch="ARKhYMaxCAiLzkWa9jbWF5" />
@@ -7411,7 +7437,7 @@
               <Choice Kind="ProcessAppFlag" Name="RenderWindow" />
             </p:NodeReference>
             <Pin Id="DmO8VGg3s49QQerxqnUG9q" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="ORwjD4b7wm8QVRylfMEDAg" Name="Bounds" Kind="InputPin" DefaultValue="0, 23.2, 1536, 840.8" />
+            <Pin Id="ORwjD4b7wm8QVRylfMEDAg" Name="Bounds" Kind="InputPin" DefaultValue="0.8, 30.4, 582.4, 832.8" />
             <Pin Id="BpkTnxdyJ81LNE02khAEKj" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="BcsYXyrgHYuMwJ855lUFSd" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="Bndj8Of2aYMQS4i2eiLcQa" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
